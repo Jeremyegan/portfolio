@@ -6,12 +6,13 @@ export default function Footer() {
     <div id="footer">
       <div className="container medium">
         <header className="major last">
-          <h2>Questions or comments?</h2>
-        </header>
+          <h3>Contact Me</h3>
+        </header><br />
 
-        <p>Life will feel it is always a great time to chat</p>
+        <p>Phone: 801.725.7965</p>
+        <p>Email: Jeremyegan1@gmail.com</p>
 
-        <ContactForm />
+        {/* <ContactForm /> */}
 
         <ul className="icons">
           {config.socialLinks.map(social => {

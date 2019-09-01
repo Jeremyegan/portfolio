@@ -1,7 +1,7 @@
 import React from 'react';
 export default function ContactForm() {
   return (
-    <form method="post" action="#">
+    <form method="post" action="mailto:Jeremyegan1@gmail.com">
       <div className="row">
         <div className="col-6 col-12-mobilep">
           <input type="text" name="name" placeholder="Name" />

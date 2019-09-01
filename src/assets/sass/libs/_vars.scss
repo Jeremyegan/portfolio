@@ -18,24 +18,24 @@
 // Palette.
 	$palette: (
 		bg:				#ffffff,
-		fg:				#6e6e6e,
+		fg:				#255957,
 		fg-light:		#888888,
-		fg-bold:		#5b5b5b,
+		fg-bold:		#011627,
 		border:			rgba(224,224,224,0.75),
-		border-bg:		rgba(224,224,224,0.15),
+		border-bg:		rgba(224, 224, 224, 0.15),
 		border-bg2:		rgba(224,224,224,0.35),
 
 		accent1: (
-			bg:			#4eb980,
+			bg:			#011627,
 			fg:			rgba(255,255,255,0.8),
 			fg-light:	rgba(255,255,255,0.5),
-			fg-bold:	#ffffff
+			fg-bold:	#EEEBD3
 		),
 
 		accent2: (
-			bg:			#544d55,
+			bg:			#D64933,
 			fg:			rgba(255,255,255,0.8),
 			fg-light:	rgba(255,255,255,0.35),
-			fg-bold:	#ffffff
+			fg-bold:	#FFFFFF
 		)
 	);

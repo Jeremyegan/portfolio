@@ -1,15 +1,20 @@
 import React from 'react';
 
+import { Link } from 'gatsby';
 import Layout from '../components/Layout';
+import resume from '../assets/images/Resume.jpg';
 
 const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="box container">
         <header>
-          <h2>A lot of generic stuff</h2>
+          <h2>Resume</h2>
         </header>
         <section>
+          <img src={resume} alt="" style={{ width:"100%" }} />
+
+          {/* 
           <header>
             <h3>Paragraph</h3>
             <p>This is the subtitle for this particular heading</p>
@@ -168,9 +173,9 @@ const IndexPage = () => (
         </section>
         <section>
           <header>
-            <h3>Form</h3>
-          </header>
-          <form method="post" action="#">
+            <h3>Contacts</h3>
+          </header> 
+           <form method="post" action="mailto:Jeremyegan1@gmail.com">
             <div className="row">
               <div className="col-6 col-12-mobilep">
                 <label htmlFor="name">Name</label>
@@ -225,7 +230,12 @@ const IndexPage = () => (
                 </ul>
               </div>
             </div>
-          </form>
+          </form> */}
+        </section><br />
+        <section>
+        <Link to="/" className="button">
+              Home
+            </Link>
         </section>
       </div>
     </div>
