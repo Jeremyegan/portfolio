@@ -43,7 +43,7 @@ const IndexPage = () => (
             </p>
           </div>
         </section>
-        <section className="feature right">
+        {/* <section className="feature right">
           <a href="//165.22.58.22:4500" className="image icon fa-code">
             <img src={pic2} alt="" 
             style={{ display:"block", marginLeft:"auto", marginRight:"auto", width:"100%", padding:"5px 0px", background:"transparent"}}
@@ -60,7 +60,7 @@ const IndexPage = () => (
               
             </p>
           </div>
-        </section>
+        </section> */}
         {/* <section className="feature left">
           <a href="/#" className="image icon fa-mobile">
             <img src={pic3} alt="" style={{ display:"block", marginLeft:"auto", marginRight:"-97px", width:"120%", background:"transparent"}} />
